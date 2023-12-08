@@ -30,7 +30,7 @@ function getName() {
 }
 getName()
 console.log(x)
-* * How functions work in JS ❤️ & Variable Environment :
+* * How functions work in JS ❤️ & Variable Environment:
 var x = 1
 a()
 b()
@@ -45,7 +45,7 @@ function b() {
   var x = 20
   console.log(x)
 }
-* * SHORTEST JS Program 🔥window & this keyword :
+* * SHORTEST JS Program 🔥window & this keyword:
 - this points to the window object
 console.log(window === this)
 
@@ -58,5 +58,6 @@ function a(){
 console.log(this.a);
 console.log(window.a);
 
+* * undefined vs not defined in JS 🤔:
 
 */
