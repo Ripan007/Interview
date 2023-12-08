@@ -6,6 +6,9 @@
 - code => code is executed one line at  a time
 - javascript is a  synchronous  single threaded language 🍀
 * * How JavaScript Code is executed? ❤️& Call Stack:
+- ones code get executed => global execution context created => further sub execution context for different program
+- execution context : two component / two phase
+- memory creation / memory component: in case of variable special memory (undefined) get allocated / in case  of functions whole code get copied
 
 
 */
