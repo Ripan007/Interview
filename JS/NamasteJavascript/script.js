@@ -30,6 +30,6 @@ function getName() {
 }
 getName()
 console.log(x)
-* *
+* * How functions work in JS ❤️ & Variable Environment :
 
 */
