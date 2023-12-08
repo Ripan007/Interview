@@ -27,7 +27,7 @@ const everyOne = [
   'nemo',
 ]
 
-const large = new Array(100000).fill('nemo')
+const large = new Array(100).fill('nemo')
 function findNemo(array) {
   let t0 = performance.now()
   for (let i = 0; i < array.length; i++) {
