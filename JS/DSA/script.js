@@ -1,6 +1,7 @@
 /*
 * * Big O' => how well the problem is solved
 * * what is good code ? readable , scalable (Big O)
+- how much time the code take to run
 1	    Constant	statement, one line of code
 log(n)	Logarithmic	Divide and conquer (binary search)
 n	    Linear	Loop
