@@ -25,3 +25,10 @@ var square4 = square(4)
 * * Hoisting in JavaScript 🔥(variables & functions):
 
 */
+var x = 2
+console.log(x)
+getName()
+
+function getName() {
+  console.log('welcome to javascript')
+}
