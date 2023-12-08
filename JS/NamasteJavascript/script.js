@@ -24,14 +24,12 @@ var square4 = square(4)
 👍 callStack(manage execution context) : initially its empty => codes invoke , global execution get pushed into the callStack , further function gets call and execution created for those functions , gets pushed into the callStack , ones those function gets executed , those execution context  are removed from the  callStack , at last global execution context also removed and call stack get empty👍
 * * Hoisting in JavaScript 🔥(variables & functions):
 - hoisting is a phenomenon in JavaScript by which we could able to access variables / functions before we initialize it  / put some value in it => without getting  any error
-
-*/
-
 var x = 2
-
 function getName() {
   console.log('welcome to javascript')
 }
-
 getName()
 console.log(x)
+* *
+
+*/
