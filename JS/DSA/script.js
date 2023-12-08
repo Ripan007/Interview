@@ -44,4 +44,14 @@ function findNemo(array) {
 
 findNemo(large)  O(n)
 
+* * O(1) => constant time
+
+
+
 */
+
+const boxes = [0, 1, 2, 3, 4]
+
+function getBoxesTwoBoxes(box) {
+  console.log()
+}
