@@ -4,6 +4,7 @@
 - Execution context : two component => memory component / variable environment : code component / thread of execution(it is like a thread where code executed one line at a time)
 - memory => store variable/functions => key value pair
 - code => code is executed one line at  a time
+* * javascript is a  synchronous  single threaded language
 
 
 */
