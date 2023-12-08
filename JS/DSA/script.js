@@ -71,3 +71,10 @@ function funChallenge(input) {
 total = O(3 + 4N)
 
 */
+
+function anotherFunChallenge(input) {
+  let a = 30
+  let b = 38
+  let c = 45
+  for (let i = 0; i < input.length; i++) {}
+}
