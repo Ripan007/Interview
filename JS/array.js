@@ -52,3 +52,5 @@ const callTip = function (bill) {
 const bills = [125, 555, 44];
 const tips = [callTip(bills[0]), callTip(bills[1]), callTip(bills[2])];
 console.log(bills, tips);*/
+
+// console.log('welcome')
