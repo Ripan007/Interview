@@ -46,7 +46,17 @@ function b() {
   console.log(x)
 }
 * * SHORTEST JS Program 🔥window & this keyword :
+- this points to the window object
+console.log(window === this)
 
+var x = 10;
+function a(){
+    var  a = 10
+    console.log(a);
+}
+
+console.log(this.a);
+console.log(window.a);
 
 
 */
