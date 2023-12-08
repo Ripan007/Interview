@@ -52,6 +52,9 @@ findNemo(large)  O(n)
 
 const boxes = [0, 1, 2, 3, 4]
 
-function getBoxesTwoBoxes(box) {
-  console.log()
+function getFirstTwoBoxes(box) {
+  console.log(box[0])
+  console.log(box[1])
 }
+
+getFirstTwoBoxes(boxes)
