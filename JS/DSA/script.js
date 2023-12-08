@@ -43,6 +43,7 @@ function findNemo(array) {
 }
 
 findNemo(large)  O(n)
+-------------------------------
 
 * * O(1) => constant time (no of operations remain same)
 const boxes = [0, 1, 2, 3, 4]
@@ -53,11 +54,7 @@ function getFirstTwoBoxes(box) {
 }
 
 getFirstTwoBoxes(boxes) // O(2)
-
-
-
-*/
-
+------------------------------
 function funChallenge(input) {
   let a = 10 // O(1)
   a = 40 + 1 // O(1)
@@ -71,4 +68,6 @@ function funChallenge(input) {
   return stranger // O(1)
 }
 
-// total = O(3 + 4N)
+total = O(3 + 4N)
+
+*/
