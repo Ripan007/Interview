@@ -59,10 +59,16 @@ getFirstTwoBoxes(boxes) // O(2)
 */
 
 function funChallenge(input) {
-  let a = 10
-  a = 40 + 1
+  let a = 10 // O(1)
+  a = 40 + 1 // O(1)
 
   for (let i = 0; i < input.length; i++) {
-    anotherFunction()
+    // O(N)
+    anotherFunction() // O(N)
+    let stranger = true // O(N)
+    a++ // O(N)
   }
+  return stranger // O(1)
 }
+
+// total = O(3 + 4N)
