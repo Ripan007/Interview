@@ -23,6 +23,7 @@ var square4 = square(4)
 - 👍summary : as soon as javascript code  get executed , global execution created / pushed into empty callStack , global execution context(two phase : memory / code) created , codes gets scanned / run line by line , encounter => variable(special memory (undefined) get allocated) , in case of functions  whole code gets copied , after completion of scanning the whole code , variable are allocated with the  data they have , in case of function  call/invoke =>  execution gets created , and the whole process of memory allocation / code execution get repeated until the code  gets executed👍
 👍 callStack(manage execution context) : initially its empty => codes invoke , global execution get pushed into the callStack , further function gets call and execution created for those functions , gets pushed into the callStack , ones those function gets executed , those execution context  are removed from the  callStack , at last global execution context also removed and call stack get empty👍
 * * Hoisting in JavaScript 🔥(variables & functions):
+- hoisting is a phenomenon in JavaScript by which we could able to access variables / functions without initialization / put some value in it => without getting  any error
 
 */
 
