@@ -60,7 +60,7 @@ function funChallenge(input) {
   a = 40 + 1 // O(1)
 
   for (let i = 0; i < input.length; i++) {
-    // O(N)
+     O(N)
     anotherFunction() // O(N)
     let stranger = true // O(N)
     a++ // O(N)
@@ -69,20 +69,25 @@ function funChallenge(input) {
 }
 
 total = O(3 + 4N)
-
-*/
-
+-------------------------------
 function anotherFunChallenge(input) {
-  let a = 30
-  let b = 38
-  let c = 45
+  let a = 30 O(1)
+  let b = 38 O(1)
+  let c = 45 O(1)
   for (let i = 0; i < input.length; i++) {
-    let x = i + 1
-    let y = i + 2
-    let z = i + 3
+    let x = i + 1 O(n)
+    let y = i + 2 O(n)
+    let z = i + 3 O(n)
   }
   for (let j = 0; j < input.length; j++) {
-    p = j * 2
-    q = j * 2
+    p = j * 2O(n)
+    q = j * 2O(n)
   }
+
+  let  whoIam = 'i am a programmer'
+
 }
+
+O(3+5n)
+
+*/
