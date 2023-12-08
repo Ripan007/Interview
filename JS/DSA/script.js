@@ -44,7 +44,7 @@ function findNemo(array) {
 
 findNemo(large)  O(n)
 
-* * O(1) => constant time
+* * O(1) => constant time (no of operations remain same)
 
 
 
@@ -53,8 +53,8 @@ findNemo(large)  O(n)
 const boxes = [0, 1, 2, 3, 4]
 
 function getFirstTwoBoxes(box) {
-  console.log(box[0])
-  console.log(box[1])
+  console.log(box[0]) // O(1)
+  console.log(box[1]) // O(1)
 }
 
-getFirstTwoBoxes(boxes)
+getFirstTwoBoxes(boxes) // O(2)
