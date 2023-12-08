@@ -11,6 +11,7 @@ n^3	    Cubic	Triple loop
 
 const nemo = ['nemo']
 function findNemo(array) {
+  let t0 = performance.now()
   for (let i = 0; i < array.length; i++) {
     if (array[i] === 'nemfo') {
       console.log('nemo found')
@@ -18,6 +19,8 @@ function findNemo(array) {
       console.log('nemo not found')
     }
   }
+  let t1 = performance.now()
+  console.log()
 }
 
 findNemo(nemo)
