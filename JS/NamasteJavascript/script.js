@@ -10,8 +10,7 @@
 - execution context : two component / two phase
 - memory creation / memory component / phase 1:(code executed line by line) in case of variable special memory (undefined) get allocated / in case  of functions whole code get copied
 - phase 2 : memory allotment  / creation of execution context / repetition / replacement of special  memory (undefined) with original data
-
-
+- callStack : call stack maintains the order of execution of execution context
 */
 
 var n = 2
