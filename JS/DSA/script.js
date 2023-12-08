@@ -76,5 +76,13 @@ function anotherFunChallenge(input) {
   let a = 30
   let b = 38
   let c = 45
-  for (let i = 0; i < input.length; i++) {}
+  for (let i = 0; i < input.length; i++) {
+    let x = i + 1
+    let y = i + 2
+    let z = i + 3
+  }
+  for (let j = 0; j < input.length; j++) {
+    p = j * 2
+    q = j * 2
+  }
 }
