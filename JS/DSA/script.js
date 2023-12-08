@@ -57,3 +57,12 @@ getFirstTwoBoxes(boxes) // O(2)
 
 
 */
+
+function funChallenge(input) {
+  let a = 10
+  a = 40 + 1
+
+  for (let i = 0; i < input.length; i++) {
+    anotherFunction()
+  }
+}
