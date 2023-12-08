@@ -10,10 +10,26 @@ n^3	    Cubic	Triple loop
 2^n	    Exponential	Complex full search */
 
 const nemo = ['nemo']
+const everyOne = [
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'everyOne',
+  'nemo',
+]
 function findNemo(array) {
   let t0 = performance.now()
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === 'nemfo') {
+    if (array[i] === 'nemo') {
       console.log('nemo found')
     } else {
       console.log('nemo not found')
@@ -23,4 +39,4 @@ function findNemo(array) {
   console.log(`call to find nemo took ${t1 - t0} milliseconds`)
 }
 
-findNemo(nemo)
+findNemo(everyOne)
