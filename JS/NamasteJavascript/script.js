@@ -114,6 +114,8 @@ console.log(c)
 
 */
 
+a
+
 function x() {
   var a = 10
   function y() {
