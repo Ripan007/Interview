@@ -105,6 +105,7 @@ let b = 20
 
 console.log(a)
 console.log(c)
+* * Closures in JS 🔥:
 
 
 
