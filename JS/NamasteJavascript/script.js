@@ -67,6 +67,13 @@ a = 10
 console.log(a)
 
 * * The Scope Chain, 🔥Scope & Lexical Environment:
+- where we can access  a variable and functions in a  code
 
 
 */
+
+function a() {
+  console.log(a)
+}
+var a = 10
+a()
