@@ -92,12 +92,6 @@ a()
 console.log(a)
 var a = 10
 * * BLOCK SCOPE & Shadowing in JS 🔥:
-
-
-
-
-
-*/
 var a = 120
 let b = 20
 {
@@ -110,4 +104,10 @@ let b = 20
 }
 
 console.log(a)
-console.log(b)
+console.log(c)
+
+
+
+
+
+*/
