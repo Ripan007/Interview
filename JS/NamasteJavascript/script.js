@@ -126,12 +126,6 @@ function x() {
 }
 
 x()
-
-
-
-
-*/
-
 function y() {
   for (var i = 1; i <= 5; i++) {
     setTimeout(() => {
@@ -141,3 +135,22 @@ function y() {
   console.log('display this line')
 }
 y()
+
+
+
+
+
+*/
+
+function z() {
+  function close(i) {
+    for (var i = 0; i <= 5; i++) {
+      setTimeout(() => {
+        console.log(i)
+      })
+    }
+  }
+  close(i)
+}
+
+z()
