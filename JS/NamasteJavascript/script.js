@@ -98,9 +98,16 @@ var a = 10
 
 
 */
-
+var a = 120
+let b = 20
 {
   var a = 10
   let b = 19
   const c = 20
+  console.log(a)
+  console.log(b)
+  console.log(c)
 }
+
+console.log(a)
+console.log(b)
