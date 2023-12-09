@@ -77,6 +77,16 @@ function a() {
 }
 var b = 10
 a()
+function a() {
+  b()
+  function b() {
+    console.log(c)
+  }
+}
+
+const c = 10
+a()
+* *
 
 
 */
