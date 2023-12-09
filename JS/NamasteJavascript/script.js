@@ -59,5 +59,13 @@ console.log(this.a);
 console.log(window.a);
 
 * * undefined vs not defined in JS 🤔:
+console.log(a)
+console.log(x)
+var a
+console.log(a)
+a = 10
+console.log(a)
+
+
 
 */
