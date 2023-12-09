@@ -143,14 +143,7 @@ y()
 */
 
 function z() {
-  function close(i) {
-    for (var i = 0; i <= 5; i++) {
-      setTimeout(() => {
-        console.log(i)
-      })
-    }
+  for (let i = 1; i <= 5; i++) {
+    function close() {}
   }
-  close(i)
 }
-
-z()
