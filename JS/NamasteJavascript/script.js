@@ -89,11 +89,12 @@ a()
 * * let & const in JS 🔥Temporal Dead Zone:
 - temporal dead zone => the time between  ( initial(hoisted) - put some value in it )
 - let & const are hoisted => temporal dead zone
+console.log(a)
+var a = 10
+* * BLOCK SCOPE & Shadowing in JS 🔥:
+
 
 
 
 
 */
-
-console.log(a)
-var a = 10
