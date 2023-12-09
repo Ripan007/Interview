@@ -88,10 +88,9 @@ const c = 10
 a()
 * * let & const in JS 🔥Temporal Dead Zone:
 - temporal dead zone => the time between  ( initial(hoisted) - put some value in it )
+- let & const are hoisted => temporal dead zone
+let a = 10
 
 
 
 */
-
-console.log(a)
-let a = 10
