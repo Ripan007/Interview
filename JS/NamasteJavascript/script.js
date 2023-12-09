@@ -67,16 +67,16 @@ a = 10
 console.log(a)
 
 * * The Scope Chain, 🔥Scope & Lexical Environment:
-- where we can access  a variable and functions in a  code
+- where we can access  specific  variable and functions in a  code => scope
 
 
 */
 
 function a() {
-  var b = 10
   b()
   function b() {
     console.log(b)
   }
 }
-a()
+
+var b = 10
