@@ -106,6 +106,7 @@ let b = 20
 console.log(a)
 console.log(c)
 * * Closures in JS 🔥:
+- a function bind with  the lexical environment(scope) => closure
 
 
 
