@@ -73,7 +73,10 @@ console.log(a)
 */
 
 function a() {
-  console.log(a)
+  var b = 10
+  b()
+  function b() {
+    console.log(b)
+  }
 }
-var a = 10
 a()
