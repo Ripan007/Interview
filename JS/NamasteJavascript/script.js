@@ -71,12 +71,3 @@ console.log(a)
 
 
 */
-
-function a() {
-  b()
-  function b() {
-    console.log(b)
-  }
-}
-
-var b = 10
