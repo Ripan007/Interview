@@ -86,7 +86,8 @@ function a() {
 
 const c = 10
 a()
-* *
+* * let & const in JS 🔥Temporal Dead Zone:
+
 
 
 */
