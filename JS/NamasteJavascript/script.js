@@ -123,3 +123,5 @@ function x() {
 }
 
 x()
+
+fun
