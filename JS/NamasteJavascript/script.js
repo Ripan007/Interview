@@ -87,6 +87,7 @@ function a() {
 const c = 10
 a()
 * * let & const in JS 🔥Temporal Dead Zone:
+- temporal dead zone => the time between  ( initial(hoisted) - put some value in it )
 
 
 
