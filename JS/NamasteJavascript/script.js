@@ -107,6 +107,15 @@ console.log(a)
 console.log(c)
 * * Closures in JS 🔥:
 - a function bind with  the lexical environment(scope) => closure
+function x() {
+  var a = 10
+  function y() {
+    console.log(a)
+  }
+  y()
+}
+
+x()
 
 
 
@@ -115,11 +124,11 @@ console.log(c)
 */
 
 function x() {
-  var a = 10
-  function y() {
-    console.log(a)
-  }
-  y()
+  let i = 1
+  setTimeout(() => {
+    console.log(i)
+  }, 3000)
+  console.log('display this line')
 }
 
 x()
