@@ -169,6 +169,12 @@ class MyArray {
     this.length++
     return this.length
   }
+  pop() {
+    const lastItem = this.data[this.length - 1]
+    delete this.data[this.length - 1]
+    this.length--
+    return item
+  }
 }
 
 const newArray = new MyArray()
