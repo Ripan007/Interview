@@ -120,12 +120,7 @@ console.log(strings)
   }
   console.log(i)
 })()
-
-
-
-
-*/
-
+let is blocked scope
 ;(function () {
   console.log(i)
   if ('5' === '5') {
@@ -133,3 +128,7 @@ console.log(strings)
   }
   console.log(i)
 })()
+
+
+
+*/
