@@ -116,6 +116,8 @@ console.log(strings)
 */
 
 ;(function () {
+  // defined but not declared(i)
+  //  var is  functional scope
   console.log(i)
   if ('5' === '5') {
     var i = 100
