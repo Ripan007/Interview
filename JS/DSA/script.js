@@ -91,3 +91,14 @@ function anotherFunChallenge(input) {
 O(3+5n)
 
 */
+
+/**
+* * Arrays
+- lookup => O(1)
+- push => O(1)
+- insert => O(n)
+-
+
+
+
+*/
