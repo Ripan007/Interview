@@ -104,7 +104,7 @@ O(3+5n)
 */
 
 const strings = ['a', 'b', 'c']
-// push
-
-strings.push('d')
+// push => O(1)
+// strings.push('d')
+strings.pop()
 console.log(strings)
