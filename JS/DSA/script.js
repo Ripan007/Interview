@@ -143,8 +143,14 @@ class Player {
   }
 }
 
-class Wizards extends Player {
+class Wizard extends Player {
   constructor(name, type) {
     super(name, type)
   }
+  play() {
+    console.log(`i am of type ${this.type}`)
+  }
 }
+
+const wizard1 = new Wizard('joti', 'healer')
+console.log(wizard1)
