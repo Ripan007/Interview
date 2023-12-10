@@ -114,3 +114,11 @@ console.log(strings)
 
 
 */
+
+;(function () {
+  console.log(i)
+  if ('5' === '5') {
+    var i = 100
+  }
+  console.log(i)
+})()
