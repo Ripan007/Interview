@@ -105,6 +105,8 @@ O(3+5n)
 
 const strings = ['a', 'b', 'c']
 // push => O(1)
+// pop => O(1)
 // strings.push('d')
-strings.pop()
+// strings.pop()
+strings.splice(2, 0, 'minSet')
 console.log(strings)
