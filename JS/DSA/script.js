@@ -129,10 +129,6 @@ let is blocked scope
   console.log(i)
 })()
 
-
-
-*/
-
 class Player {
   constructor(name, type) {
     this.name = name
@@ -155,4 +151,20 @@ class Wizard extends Player {
 const wizard1 = new Wizard('joti', 'healer')
 console.log(wizard1)
 
-console.log('joti introduce yourself', wizard1.introduce())
+
+
+
+*/
+
+class MyArray {
+  constructor() {
+    this.length = 0
+    this.data = {}
+  }
+  get(index) {
+    return this.data[index]
+  }
+}
+
+const newArray = new MyArray()
+console.log(newArray[0])
