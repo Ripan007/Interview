@@ -167,4 +167,4 @@ class MyArray {
 }
 
 const newArray = new MyArray()
-console.log(newArray[0])
+console.log(newArray.get[0])
