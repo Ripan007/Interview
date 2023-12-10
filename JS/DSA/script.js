@@ -133,13 +133,18 @@ let is blocked scope
 
 */
 
-const Player ={
-  constructor(name,type){
-    this.name = name;
-    this.type = type;
+class Player {
+  constructor(name, type) {
+    this.name = name
+    this.type = type
+  }
+  introduce() {
+    console.log(`hi i am ${this.name},i am of type ${this.type}`)
+  }
 }
-  introduce(){
-    console.log();
 
+class Wizards extends Player {
+  constructor(name, type) {
+    super(name, type)
   }
 }
