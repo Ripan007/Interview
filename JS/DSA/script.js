@@ -111,4 +111,5 @@ const strings = ['a', 'b', 'c']
 // strings.pop()
 // strings.splice(2, 0, 'minSet')
 strings.unshift('aa')
+strings.shift()
 console.log(strings)
