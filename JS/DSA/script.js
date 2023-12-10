@@ -173,11 +173,12 @@ class MyArray {
     const lastItem = this.data[this.length - 1]
     delete this.data[this.length - 1]
     this.length--
-    return item
+    return lastItem
   }
 }
 
 const newArray = new MyArray()
 newArray.push('apple')
 newArray.push('orange')
+newArray.pop()
 console.log(newArray)
