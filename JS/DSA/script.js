@@ -110,17 +110,26 @@ strings.unshift('aa')
 strings.shift()
 console.log(strings)
 
+;(function () {
+    var is  functional scope
+   defined but not declared(i)
+    hoisting
+  console.log(i)
+  if ('5' === '5') {
+    var i = 100
+  }
+  console.log(i)
+})()
+
 
 
 
 */
 
 ;(function () {
-  // defined but not declared(i)
-  //  var is  functional scope
   console.log(i)
   if ('5' === '5') {
-    var i = 100
+    let i = 100
   }
   console.log(i)
 })()
