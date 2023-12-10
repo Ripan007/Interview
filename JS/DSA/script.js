@@ -99,17 +99,18 @@ O(3+5n)
 - insert => O(n)
 - delete => O(n)
 
-
-
-*/
-
 const strings = ['a', 'b', 'c']
-// push => O(1)
-// pop => O(1)
-// splice => O(n)
-// strings.push('d')
-// strings.pop()
-// strings.splice(2, 0, 'minSet')
+push => O(1)
+pop => O(1)
+splice => O(n)
+strings.push('d')
+strings.pop()
+strings.splice(2, 0, 'minSet')
 strings.unshift('aa')
 strings.shift()
 console.log(strings)
+
+
+
+
+*/
