@@ -155,4 +155,4 @@ class Wizard extends Player {
 const wizard1 = new Wizard('joti', 'healer')
 console.log(wizard1)
 
-console.log(wizard1.introduce())
+console.log('joti introduce yourself', wizard1.introduce())
