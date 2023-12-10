@@ -105,5 +105,6 @@ O(3+5n)
 
 const strings = ['a', 'b', 'c']
 // push
-const push = strings.push('d')
-console.log(push)
+
+strings.push('d')
+console.log(strings)
