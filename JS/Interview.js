@@ -14,6 +14,13 @@
 * This dual functionality makes JSON a versatile tool in web development.
 
 4. Explain how cookies work in JavaScript?
+* Cookies in JavaScript function as a way to store user information (like usernames) between web sessions.
+* allows the server to retrieve the stored information to enable a seamless user experience.
 
+5. Explain what is “use strict” in JavaScript ?
+* This mode applies more rigorous parsing and error handling to your code during runtime. It’s a valuable tool for writing cleaner code and detecting potential errors and bugs that could be easily overlooked in normal mode, ensuring higher code quality and reliability.
+
+6. Explain hoisting in JavaScript ?
+*
 
 */
