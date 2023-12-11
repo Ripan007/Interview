@@ -32,3 +32,11 @@
 * he non-strict mode might initially appear more lenient but can introduce unpredictable behaviors and potential security risks
 
 */
+
+function strictMode() {
+  'use strict'
+  varOne = 100
+  console.log(`${varOne}`)
+}
+
+strictMode()
