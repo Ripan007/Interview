@@ -1,8 +1,17 @@
-.accordian-body {
-  max-height: 0;
-  transition: 500ms max-height ease;
-}
-
-.accordian:hover .accordian-body {
-  max-height: 200px;
+button {
+  text-transform: uppercase;
+  border-radius: 8px;
+  display: inline-flex;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  align-items: center;
+  transition: 250ms ease-out opacity;
+  gap: 1em;
+  text-align: center;
+  font-weight: 700;
+  background-color: #252b2e;
+  color: white;
+  border: none;
+  justify-content: center;
+  cursor: pointer;
 }
