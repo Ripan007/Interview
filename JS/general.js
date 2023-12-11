@@ -43,7 +43,7 @@ console.log(arr.slice(-1)[0]);
 console.log('general', arr[arr.length - 1]);
 */
 
-const movements = [100, 45, 35, 78];
+// const movements = [100, 45, 35, 78];
 
 // for (const movement of movements) {
 //   if (movement > 0) {
@@ -72,7 +72,6 @@ currencies.forEach(function (value, key) {
 
 const uniqueCurrencies = new Set(['us', 'us', 'gbp']);
 console.log('🚀 ~ file: general.js:77 ~ uniqueCurrencies:', uniqueCurrencies);
-uniqueCurrencies.forEach(function (value, key) {
   console.log(`${key}:${value}`);
 });
 */
