@@ -9,5 +9,11 @@
 * string ,number ,bigint , boolean , undefined  , null, symbol, object
 
 3. What is JSON in JavaScript?
+* In practice, JSON operates through two key processes: parsing and stringification.
+* JavaScript Object Notation (JSON) is a standard text-based format in web applications. Its function is to represent structured data using JavaScript object syntax. It transmits data between a server and a client, enabling seamless data display on web pages.
+* This dual functionality makes JSON a versatile tool in web development.
+
+4. Explain how cookies work in JavaScript?
+
 
 */
