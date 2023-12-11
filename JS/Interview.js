@@ -25,6 +25,9 @@
 * concept is crucial for understanding how JavaScript interprets and executes code
 
 7. When do we use Weakmap in JavaScript?
+* WeakMap in JavaScript is a specialized type of Map used for associating data with objects (map keys) without preventing garbage collection of those objects
+
+8. Explain non-strict mode vs. strict mode in JavaScript ?
 
 
 */
