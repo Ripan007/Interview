@@ -75,3 +75,20 @@ console.log('🚀 ~ file: general.js:77 ~ uniqueCurrencies:', uniqueCurrencies);
   console.log(`${key}:${value}`);
 });
 */
+
+/*const getUserInfo = async () => {
+  try {
+    const userInfo = await fetch('https//')
+  } catch (err) {}
+
+  const getUserInfo = async () => {
+  try {
+    const userInfo = await fetch('https/')
+  } catch (err) {
+    Toast(err.message)
+  }
+}
+
+}*/
+
+const getUserInfo = (name, age, role, profile) => {}
