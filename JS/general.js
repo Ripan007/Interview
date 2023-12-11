@@ -92,5 +92,24 @@ console.log('🚀 ~ file: general.js:77 ~ uniqueCurrencies:', uniqueCurrencies);
 const getUserInfo = (name, age, role, profile) => {}
 getUserInfo('ripan',28)
 
+const GetUserInfo =(options)=>{
+  const{name,age,role,capability, manymore} = options
+
+}
+
+GetUserInfo({
+  name:'random',
+  role:developer
+})
+const getUserData = (options) => {
+  const { name, age } = options
+  console.log(`${name} ${age}`)
+}
+
+getUserData({
+  name: 'random',
+  age: 27,
+})
+
 
 }*/
