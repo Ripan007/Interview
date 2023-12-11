@@ -1,0 +1,7 @@
+.accordian-body {
+  height: 0;
+  transition: 500ms height ease;
+}
+
+.accordian:hover .accordian-body {
+}
