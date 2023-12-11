@@ -21,6 +21,10 @@
 * This mode applies more rigorous parsing and error handling to your code during runtime. It’s a valuable tool for writing cleaner code and detecting potential errors and bugs that could be easily overlooked in normal mode, ensuring higher code quality and reliability.
 
 6. Explain hoisting in JavaScript ?
-*
+* default behavior where the declarations of variables, functions, classes, or imports are conceptually moved to the top of their scope before executing the code
+* concept is crucial for understanding how JavaScript interprets and executes code
+
+7. When do we use Weakmap in JavaScript?
+
 
 */
