@@ -44,6 +44,9 @@ one = 1999
 console.log(one)
 
 9. Explain the difference between let and var and when they are used ?
+* ‘Let’ confines variables to the block in which they are defined. ‘Var’ allows variables to remain accessible throughout the entire function where they’re declared.
+
+10. How would you remove duplicates from the array in JavaScript ?
 
 
 
