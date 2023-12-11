@@ -31,8 +31,6 @@
 * Strict mode in JavaScript enhances error detection and enforces more rigorous coding standards. This results in improved code quality and reduced bugs. It prohibits duplicate arguments and the creation of global variables by mistake
 * he non-strict mode might initially appear more lenient but can introduce unpredictable behaviors and potential security risks
 
-*/
-
 function strictMode() {
   'use strict'
   varOne = 100
@@ -40,3 +38,14 @@ function strictMode() {
 }
 
 strictMode()
+
+'use strict'
+one = 1999
+console.log(one)
+
+9. Explain the difference between let and var and when they are used ?
+
+
+
+
+*/
