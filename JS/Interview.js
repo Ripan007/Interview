@@ -48,14 +48,16 @@ console.log(one)
 
 10. How would you remove duplicates from the array in JavaScript ?
 
-
-
-
-*/
-
 const duplicateRemoval = (array) => {
   const uniqueSet = new Set(array)
   return Array.from(uniqueSet)
 }
 
-const originalArray = [1, 3, 3, 5]
+const originalArray = [1, 3, 3, 5, 5]
+const newArray = duplicateRemoval(originalArray)
+console.log(newArray)
+
+
+
+
+*/
