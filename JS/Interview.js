@@ -52,3 +52,10 @@ console.log(one)
 
 
 */
+
+const duplicateRemoval = (array) => {
+  const uniqueSet = new Set(array)
+  return Array.from(uniqueSet)
+}
+
+const originalArray = [1, 3, 3, 5]
