@@ -89,6 +89,8 @@ console.log('🚀 ~ file: general.js:77 ~ uniqueCurrencies:', uniqueCurrencies);
   }
 }
 
-}*/
-
 const getUserInfo = (name, age, role, profile) => {}
+getUserInfo('ripan',28)
+
+
+}*/
