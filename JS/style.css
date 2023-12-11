@@ -1,8 +1,8 @@
 .accordian-body {
-  height: 0;
-  transition: 500ms height ease;
+  max-height: 0;
+  transition: 500ms max-height ease;
 }
 
 .accordian:hover .accordian-body {
-  height: auto;
+  max-height: 200px;
 }
