@@ -28,6 +28,7 @@
 * WeakMap in JavaScript is a specialized type of Map used for associating data with objects (map keys) without preventing garbage collection of those objects
 
 8. Explain non-strict mode vs. strict mode in JavaScript ?
-
+* Strict mode in JavaScript enhances error detection and enforces more rigorous coding standards. This results in improved code quality and reduced bugs. It prohibits duplicate arguments and the creation of global variables by mistake
+* he non-strict mode might initially appear more lenient but can introduce unpredictable behaviors and potential security risks
 
 */
