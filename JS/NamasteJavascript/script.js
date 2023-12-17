@@ -149,7 +149,27 @@ function z() {
 z()
 
 
+function a(){
+  console.log('function statement')
+}
 
 
+const b = ()=>{
+  console.log('function expression','hoisting')
+}
+var b = function(param1,param2){
+  console.log(param1,param2)
+
+}
+
+b(arg1,arg2)
 
 */
+
+var b  = function(){
+  return function(){
+
+  }
+}
+
+console.log(b())
